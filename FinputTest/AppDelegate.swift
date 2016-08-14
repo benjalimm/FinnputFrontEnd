@@ -16,9 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        window = UIWindow(frame:UIScreen.mainScreen().bounds)
+        window?.makeKeyAndVisible()
+        
+        let layout = UICollectionViewFlowLayout()
+        let finController = FinController(collectionViewLayout: layout)
+        window?.rootViewController = UINavigationController(rootViewController: finController)
+        
+        // get rid of black bar underneath navbar 
+        UINavigationBar.appearance().barTintColor = UIColor.FinnMaroon()
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
+
+        
         // Override point for customization after application launch.
         return true
     }
+
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

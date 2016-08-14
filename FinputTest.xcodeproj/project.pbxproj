@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790C54501D4C7CEE00A74205 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790C544F1D4C7CEE00A74205 /* Extensions.swift */; };
 		79598B9D1D36965D0053C4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B9C1D36965D0053C4D1 /* AppDelegate.swift */; };
 		79598B9F1D36965D0053C4D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79598B9E1D36965D0053C4D1 /* ViewController.swift */; };
-		79598BA21D36965D0053C4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79598BA01D36965D0053C4D1 /* Main.storyboard */; };
 		79598BA51D36965D0053C4D1 /* FinputTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79598BA31D36965D0053C4D1 /* FinputTest.xcdatamodeld */; };
 		79598BA71D36965D0053C4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79598BA61D36965D0053C4D1 /* Assets.xcassets */; };
-		79598BAA1D36965D0053C4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79598BA81D36965D0053C4D1 /* LaunchScreen.storyboard */; };
+		79BE3E6A1D464EBE00565B0E /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE3E681D464EBE00565B0E /* Message+CoreDataProperties.swift */; };
+		79BE3E6B1D464EBE00565B0E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE3E691D464EBE00565B0E /* Message.swift */; };
+		79BE3E6D1D464FA600565B0E /* MessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE3E6C1D464FA600565B0E /* MessageHelper.swift */; };
+		79FCD32C1D473338004F542B /* FinnBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FCD32B1D473338004F542B /* FinnBot.swift */; };
+		79FCD32E1D47B8C3004F542B /* Menubar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FCD32D1D47B8C3004F542B /* Menubar.swift */; };
+		79FCD3301D47D3E7004F542B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FCD32F1D47D3E7004F542B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		790C544F1D4C7CEE00A74205 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../Extensions.swift; sourceTree = "<group>"; };
 		79598B991D36965D0053C4D1 /* FinputTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinputTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79598B9C1D36965D0053C4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79598B9E1D36965D0053C4D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79598BA11D36965D0053C4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79598BA41D36965D0053C4D1 /* FinputTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinputTest.xcdatamodel; sourceTree = "<group>"; };
 		79598BA61D36965D0053C4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79598BA91D36965D0053C4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79598BAB1D36965D0053C4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BE3E681D464EBE00565B0E /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		79BE3E691D464EBE00565B0E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		79BE3E6C1D464FA600565B0E /* MessageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageHelper.swift; sourceTree = "<group>"; };
+		79FCD32B1D473338004F542B /* FinnBot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinnBot.swift; path = ../FinnBot.swift; sourceTree = "<group>"; };
+		79FCD32D1D47B8C3004F542B /* Menubar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menubar.swift; path = ../Menubar.swift; sourceTree = "<group>"; };
+		79FCD32F1D47D3E7004F542B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		79598B901D36965D0053C4D1 = {
 			isa = PBXGroup;
 			children = (
+				79FCD32F1D47D3E7004F542B /* Launch Screen.storyboard */,
 				79598B9B1D36965D0053C4D1 /* FinputTest */,
 				79598B9A1D36965D0053C4D1 /* Products */,
 			);
@@ -56,13 +67,17 @@
 		79598B9B1D36965D0053C4D1 /* FinputTest */ = {
 			isa = PBXGroup;
 			children = (
-				79598B9C1D36965D0053C4D1 /* AppDelegate.swift */,
-				79598B9E1D36965D0053C4D1 /* ViewController.swift */,
-				79598BA01D36965D0053C4D1 /* Main.storyboard */,
 				79598BA61D36965D0053C4D1 /* Assets.xcassets */,
-				79598BA81D36965D0053C4D1 /* LaunchScreen.storyboard */,
 				79598BAB1D36965D0053C4D1 /* Info.plist */,
 				79598BA31D36965D0053C4D1 /* FinputTest.xcdatamodeld */,
+				79BE3E681D464EBE00565B0E /* Message+CoreDataProperties.swift */,
+				79BE3E691D464EBE00565B0E /* Message.swift */,
+				79598B9C1D36965D0053C4D1 /* AppDelegate.swift */,
+				79598B9E1D36965D0053C4D1 /* ViewController.swift */,
+				79BE3E6C1D464FA600565B0E /* MessageHelper.swift */,
+				79FCD32D1D47B8C3004F542B /* Menubar.swift */,
+				79FCD32B1D473338004F542B /* FinnBot.swift */,
+				790C544F1D4C7CEE00A74205 /* Extensions.swift */,
 			);
 			path = FinputTest;
 			sourceTree = "<group>";
@@ -99,6 +114,7 @@
 				TargetAttributes = {
 					79598B981D36965D0053C4D1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M3P85P7J6X;
 					};
 				};
 			};
@@ -125,9 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79598BAA1D36965D0053C4D1 /* LaunchScreen.storyboard in Resources */,
+				79FCD3301D47D3E7004F542B /* Launch Screen.storyboard in Resources */,
 				79598BA71D36965D0053C4D1 /* Assets.xcassets in Resources */,
-				79598BA21D36965D0053C4D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,31 +154,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				79598B9F1D36965D0053C4D1 /* ViewController.swift in Sources */,
+				79BE3E6D1D464FA600565B0E /* MessageHelper.swift in Sources */,
+				79FCD32E1D47B8C3004F542B /* Menubar.swift in Sources */,
 				79598B9D1D36965D0053C4D1 /* AppDelegate.swift in Sources */,
+				79BE3E6B1D464EBE00565B0E /* Message.swift in Sources */,
+				790C54501D4C7CEE00A74205 /* Extensions.swift in Sources */,
+				79BE3E6A1D464EBE00565B0E /* Message+CoreDataProperties.swift in Sources */,
 				79598BA51D36965D0053C4D1 /* FinputTest.xcdatamodeld in Sources */,
+				79FCD32C1D473338004F542B /* FinnBot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		79598BA01D36965D0053C4D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79598BA11D36965D0053C4D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		79598BA81D36965D0053C4D1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79598BA91D36965D0053C4D1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		79598BAC1D36965D0053C4D1 /* Debug */ = {
@@ -253,10 +255,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FinputTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BenCode.FinputTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -264,10 +269,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FinputTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BenCode.FinputTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -290,6 +298,7 @@
 				79598BB01D36965D0053C4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
