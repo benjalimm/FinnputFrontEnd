@@ -28,6 +28,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = UIColor.FinnMaroon()
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
+        
+        application.statusBarStyle = .LightContent
+        
+        let statusBarBackgroundView = UIView()
+        statusBarBackgroundView.backgroundColor = UIColor.FinnMaroon()
+        
+        window?.addSubview(statusBarBackgroundView)
+        window?.addConstraintsWithFormat("H:|[v0]|", views: statusBarBackgroundView)
+        window?.addConstraintsWithFormat("V:|[v0(20)]", views: statusBarBackgroundView)
 
         
         // Override point for customization after application launch.

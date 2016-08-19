@@ -37,7 +37,16 @@ class MenuBar: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIC
         let selectedIndexPath = NSIndexPath(forItem: 1, inSection: 0)
         collectionView.selectItemAtIndexPath(selectedIndexPath, animated: false, scrollPosition: .None)
         
-      
+        setupHorizontalBar()
+    }
+    
+    func setupHorizontalBar() {
+        let horizontalBarView = UIView()
+        horizontalBarView.backgroundColor = UIColor.FinnMaroon()
+        horizontalBarView.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(horizontalBarView)
+        
+        
     }
     
     //Number of cells in Menubar

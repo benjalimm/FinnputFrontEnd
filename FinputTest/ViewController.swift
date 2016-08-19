@@ -78,9 +78,23 @@ class FinController: UICollectionViewController, UICollectionViewDelegateFlowLay
     
     // Setup Menubar
     private func setupMenuBar() {
+        navigationController?.hidesBarsOnSwipe = true
+        
+        //view to fill out behind of menubar 
+        let whiteView = UIView()
+        whiteView.backgroundColor = UIColor.whiteColor()
+        view.addSubview(whiteView)
+        view.addConstraintsWithFormat("H:|[v0]|", views: whiteView)
+        view.addConstraintsWithFormat("V:[v0(50)]", views: whiteView)
+        
         view.addSubview(menuBar)
         view.addConstraintsWithFormat("H:|[v0]|", views: menuBar)
-        view.addConstraintsWithFormat("V:|[v0(50)]", views: menuBar)
+        view.addConstraintsWithFormat("V:[v0(50)]", views: menuBar)
+        
+        
+
+        
+        menuBar.topAnchor.constraintEqualToAnchor(topLayoutGuide.bottomAnchor).active = true 
 
     }
     
